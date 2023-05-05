@@ -16,7 +16,7 @@ function Hero2() {
               <p className="max-w-2xl mb-6 text-gray-500 font-light lg:mb-8 md:text-lg lg:text-xl">
                 Visa & Immigration service for skilled professionals, students, dependent families, settlement, permanent residency, citizenship, and family tourist visits.
               </p>
-              <a href="#" className="inline-flex items-center justify-center w-60 px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden">
+              <a href="#" className="inline-flex items-center justify-center px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden">
                 Schedule a Consultation
               </a>
             </div>

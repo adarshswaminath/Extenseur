@@ -11,7 +11,7 @@ function Hero() {
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
                 Qualified overseas registered nurse,midwives and other allied health profession who met the eligubility criteria can work in UK
             </p>
-            <a href="#" className="bg-golden w-96 mb-2 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white  rounded-full">
+            <a href="#" className="bg-golden mb-2 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white  rounded-full">
                 Schedule a Consultation
             </a> 
         </div>
