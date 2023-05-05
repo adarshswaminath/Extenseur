@@ -1,4 +1,11 @@
 import React from 'react'
+import one from "../images/service1.jpg"
+import two from "../images/service2.jpg"
+import three from "../images/service3.jpg"
+import four from "../images/service4.jpg"
+import five from "../images/service5.jpg"
+import six from "../images/service6.jpg"
+
 
 const ServiceCard = ({ title, imageUrl, linkUrl }) => {
     return (
@@ -30,32 +37,32 @@ function Service() {
                 <div className="mt-4 grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <ServiceCard
                         title="UK UNIVERSITY ADMISSION"
-                        imageUrl="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        imageUrl={one}
                         linkUrl="#"
                     />
                     <ServiceCard
                         title="UK HEALTHCARE PLACEMENT"
-                        imageUrl="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        imageUrl={two}
                         linkUrl="#"
                     />
                     <ServiceCard
                         title="VISA & IMMIGRATION"
-                        imageUrl="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        imageUrl={three}
                         linkUrl="#"
                     />
                     <ServiceCard
                         title="HR/ADMIN OUTSOURCING (RPO)"
-                        imageUrl="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        imageUrl={four}
                         linkUrl="#"
                     />
                     <ServiceCard
                         title="CANADA IMMIGRATION & CITIZENSHIP"
-                        imageUrl="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        imageUrl={five}
                         linkUrl="#"
                     />
                     <ServiceCard
                         title="TRAININGS"
-                        imageUrl="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        imageUrl={six}
                         linkUrl="#"
                     />
                 </div>

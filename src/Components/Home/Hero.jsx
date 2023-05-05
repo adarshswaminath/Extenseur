@@ -1,4 +1,5 @@
 import React from 'react'
+import image from "../images/hero.jpg"
 
 function Hero() {
   return (
@@ -15,7 +16,7 @@ function Hero() {
             </a> 
         </div>
         <div className="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup"/>
+            <img src={image} alt="mockup" className='h-96 rounded-lg shadow-lg'/>
         </div>                
     </div>
 </section>
