@@ -1,29 +1,29 @@
-import React from 'react'
-import image from "../images/hero.jpg"
+import React from 'react';
+import image from '../images/hero.jpg';
 
 function Hero() {
   return (
-    <div>
-      <section className="bg-background">
-        <div className="grid h-screen px-4 py-8 mx-auto gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-16 lg:py-16 lg:grid-cols-12">
-          <div className="mx-auto text-center lg:text-left lg:col-span-7 lg:flex lg:flex-col lg:justify-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-5xl font-extrabold leading-tight tracking-tight mb-4 sm:mb-6 md:mb-8 xl:mb-10 max-w-3xl">
+    <div className="bg-background">
+      <div className="container mx-auto px-4 py-12 sm:py-20 lg:py-24 xl:py-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
+          <div className="flex flex-col justify-center items-center md:items-start">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6 md:mb-8 xl:mb-10">
               Healthcare Placement To UK
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-500 font-light max-w-2xl mb-6 lg:mb-8">
-              Qualified overseas registered nurse, midwives and other allied health profession who met the eligubility criteria can work in UK
+            <p className="text-gray-500 text-base sm:text-lg md:text-xl mb-8 md:mb-10 xl:mb-12 max-w-xl">
+              Qualified overseas registered nurse, midwives and other allied health profession who met the eligibility criteria can work in UK
             </p>
-            <a href="#" className="bg-golden text-white rounded-full px-5 py-3 text-base sm:text-lg font-medium mb-4 sm:mb-0">
+            <a href="#" className="bg-golden text-white rounded-full py-4 px-8 text-base sm:text-lg font-medium shadow-lg hover:bg-yellow-400 transition duration-300">
               Schedule a Consultation
             </a>
           </div>
-          <div className="lg:col-span-5 lg:flex lg:justify-center">
-            <img src={image} alt="mockup" className="h-80 sm:h-96 lg:h-full rounded-lg shadow-lg" />
+          <div className="flex justify-center">
+            <img src={image} alt="mockup" className="w-full md:max-w-lg lg:max-w-full rounded-lg shadow-lg" />
           </div>
         </div>
-      </section>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
