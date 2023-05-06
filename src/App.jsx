@@ -1,6 +1,8 @@
-import  Navbar  from "./Components/Navbar"
+import Navbar from "./Components/Navbar"
 import Home from "./Components/Home/Home"
 import logo from "./Components/images/logo.png"
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Outsourcing from "./Components/OutSourcing/Outsourcing";
 
 function Top() {
   return (
@@ -44,12 +46,20 @@ function App() {
 
   return (
     <>
-      {/* navbar */}
-      <Top />
-      <hr class="w-full bg-gray-400 h-px"/>
-      <Navbar/>
-      {/* Body Section */}
-      <Home />
+      <Router>
+        {/* UserInterface */}
+        <Top />
+        <hr className="w-full bg-gray-400 h-px" />
+        <Navbar />
+          {/* Routing things */}
+          <Routes>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/outsourcing" element={<Outsourcing />}></Route>
+        </Routes>
+
+
+      
+      </Router>
     </>
   )
 }
