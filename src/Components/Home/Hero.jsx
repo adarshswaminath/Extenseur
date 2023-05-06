@@ -4,22 +4,24 @@ import image from "../images/hero.jpg"
 function Hero() {
   return (
     <div>
-        <section className="bg-background">
-    <div className="grid h-screen px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl tracking-tight leading-none md:text-5xl xl:text-5xl">Healthcare Placement To UK</h1>
-            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-                Qualified overseas registered nurse,midwives and other allied health profession who met the eligubility criteria can work in UK
+      <section className="bg-background">
+        <div className="grid h-screen px-4 py-8 mx-auto gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-16 lg:py-16 lg:grid-cols-12">
+          <div className="mx-auto text-center lg:text-left lg:col-span-7 lg:flex lg:flex-col lg:justify-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-5xl font-extrabold leading-tight tracking-tight mb-4 sm:mb-6 md:mb-8 xl:mb-10 max-w-3xl">
+              Healthcare Placement To UK
+            </h1>
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-500 font-light max-w-2xl mb-6 lg:mb-8">
+              Qualified overseas registered nurse, midwives and other allied health profession who met the eligubility criteria can work in UK
             </p>
-            <a href="#" className="bg-golden mb-2 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white  rounded-full">
-                Schedule a Consultation
-            </a> 
+            <a href="#" className="bg-golden text-white rounded-full px-5 py-3 text-base sm:text-lg font-medium mb-4 sm:mb-0">
+              Schedule a Consultation
+            </a>
+          </div>
+          <div className="lg:col-span-5 lg:flex lg:justify-center">
+            <img src={image} alt="mockup" className="h-80 sm:h-96 lg:h-full rounded-lg shadow-lg" />
+          </div>
         </div>
-        <div className="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={image} alt="mockup" className='h-96 rounded-lg shadow-lg'/>
-        </div>                
-    </div>
-</section>
+      </section>
     </div>
   )
 }
