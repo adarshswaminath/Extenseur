@@ -27,7 +27,7 @@ const ServiceCard = ({ title, imageUrl, linkUrl }) => {
 function Service() {
     return (
         <div>
-            <div className="min-h-screen mt-6 flex flex-col items-center">
+            <div className="mt-6 flex flex-col items-center">
                 <h1 className="text-4xl text-center mb-6">Our Services</h1>
                 <p className="max-w-2xl text-gray-500 font-light text-center mb-8 md:text-lg lg:text-xl">
                     Specialized in supporting healthcare profession placement Visa & Immigration,
