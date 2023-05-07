@@ -3,6 +3,8 @@ import Home from "./Components/Home/Home"
 import logo from "./Components/images/logo.png"
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Outsourcing from "./Components/OutSourcing/Outsourcing";
+import About from "./Components/About/About";
+import "./App.css"
 
 function Top() {
   return (
@@ -55,6 +57,7 @@ function App() {
           <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/outsourcing" element={<Outsourcing />}></Route>
+          <Route exact path="/about" element={<About/>}></Route>
         </Routes>
 
 

@@ -8,7 +8,7 @@ function About() {
             <section className="bg-white" >
                 <div className="grid max-w-screen-xl gap-8 px-4 py-8 mx-auto lg:gap-16 lg:py-16" >
                     <div className="mt-6 bg-white p-5 shadow-2xl" >
-                        <h1 className="mb-4 left-0 text-3xl tracking-tight leading-none md:text-5xl xl:text-5xl">
+                        <h1 className="spcl-font mb-4 left-0 text-3xl tracking-tight leading-none md:text-5xl xl:text-5xl">
                             About Extenseur HR
                         </h1>
                         <p className="max-w-4xl mb-6 text-gray-500 font-light lg:mb-8 md:text-lg lg:text-xl left-0">

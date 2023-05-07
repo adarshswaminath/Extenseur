@@ -10,7 +10,9 @@ function Header() {
           <AiTwotoneStar className="mr-2" />
           The Business Immigration Service
         </h4>
-        <h2 className="spcl-font text-2xl md:text-3xl lg:text-4xl text-white ">Visa &amp; Immigration Service</h2>
+        <h2 className="spcl-font text-2xl md:text-3xl lg:text-4xl text-white">
+            About E<span className='text-golden'>x</span>tensure HR
+        </h2>
       </div>
     </div>
     <div className="h-4 bg-golden"></div>

@@ -10,7 +10,7 @@ function Hero2() {
               <img src={image} alt="mockup" className='rounded'/>
             </div>
             <div className="col-span-7 self-center">
-              <h1 className="max-w-2xl mb-4 text-4xl tracking-tight leading-none md:text-5xl xl:text-5xl">
+              <h1 className="spcl-font max-w-2xl mb-4 text-4xl tracking-tight leading-none md:text-5xl xl:text-5xl">
                 Visa & Immigration Consultation
               </h1>
               <p className="max-w-2xl mb-6 text-gray-500 font-light lg:mb-8 md:text-lg lg:text-xl">

@@ -7,7 +7,7 @@ function Library() {
     <section className="bg-background">
       <div className="grid max-w-screen-xl grid-cols-12 gap-8 px-4 py-8 mx-auto lg:gap-16 lg:py-16">
         <div className="col-span-12 lg:col-span-7 self-center">
-          <h1 className="max-w-2xl mb-4 text-4xl tracking-tight leading-none md:text-5xl xl:text-5xl">
+          <h1 className="spcl-font max-w-2xl mb-4 text-4xl tracking-tight leading-none md:text-5xl xl:text-5xl">
             Want to study in Top Universities Abroad?
           </h1>
           <p className="max-w-2xl mb-6 text-gray-500 font-light lg:mb-8 md:text-lg lg:text-xl">

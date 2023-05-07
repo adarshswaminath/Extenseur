@@ -9,7 +9,7 @@ function Hero() {
         <div className="container mx-auto px-4 py-12 sm:py-20 lg:py-24 xl:py-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
             <div className="flex flex-col justify-center items-center md:items-start">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6 md:mb-8 xl:mb-10">
+              <h1 className="spcl-font text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6 md:mb-8 xl:mb-10">
                 Healthcare Placement To UK
               </h1>
               <p className="text-gray-500 text-base sm:text-lg md:text-xl mb-8 md:mb-10 xl:mb-12 max-w-xl">

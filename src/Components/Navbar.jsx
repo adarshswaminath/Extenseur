@@ -94,6 +94,12 @@ function Navbar() {
                         >
                             Visa & Immigration
                         </a>
+                        <Link
+                            to="/about"
+                            className="block px-3 py-2 rounded-md text-base font-medium text-golden"
+                        >
+                            About
+                        </Link>
                             </div>
                         </div>
                     </div>
@@ -132,6 +138,12 @@ function Navbar() {
                         >
                             Visa & Immigration
                         </a>
+                        <Link
+                            to="/about"
+                            className="block px-3 py-2 rounded-md text-base font-medium text-golden"
+                        >
+                            About
+                        </Link>
                     </div>
                 </div>
             )}
