@@ -47,7 +47,7 @@ function Top() {
 function App() {
 
   return (
-    <>
+    <main>
       <Router>
         {/* UserInterface */}
         <Top />
@@ -63,7 +63,7 @@ function App() {
 
       
       </Router>
-    </>
+    </main>
   )
 }
 
