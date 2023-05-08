@@ -29,7 +29,7 @@ function Service() {
         </h2>
         {/* cards */}
        {/* !section-1 */}
-       <div className="grid lg:flex mt-3 gap-3 justify-center">
+       <div className="grid lg:flex mt-3 gap-3 justify-center md:grid">
           {/* card-1  */}
          <Card heading="Administration" content="We provide all kinds of admin works on writing,suuply management,verbale communication,process improvement,organization multi-tasking,problem solving presenting and analyzing technical information,decision making,information and others within our partner company effectively by providing structure to other employess throughout the organization.We guarantee high statndard office administration by providing specialized training in order to maintain a high rate of efficiency and productivity"
           />
@@ -40,7 +40,7 @@ function Service() {
           <Card heading="Ad-Hoc" content="Every administration and office works have at least a ton of ad-hoc works.We will not just leave you to the demand of doing even tiny taks that need to be property checked this will allow you to do not miss the big picture for a little mistake.Smaller tasks take more time,however the greated savings will occur when larger assignement come"/>
         </div>
         {/* section-2 */}
-        <div className="grid lg:flex mt-3 gap-3 justify-center">
+        <div className="grid lg:flex mt-3 gap-3 justify-center md:grid">
           {/* card -4 */}
           <Card heading="Database Management" content="A Strategic HR data management system allows us to define,create and update employee database for the company.Maintenance and updating of candidate's databases are considered to be a potential need that should ensure a high level of data management skill and standard.We are keeping a close eye on each activity of managing the data to avoid miss handling with a proper data management system in place."/>
           {/* card -5 */}
