@@ -76,7 +76,7 @@ function Navbar() {
                                 <Link to="/outsourcing"
                                 className="px-3 py-2 rounded-md text-sm font-medium text-golden"
                                 >Outsourcing(RPO)</Link>
-                                <a
+                                {/* <a
                                     href="#"
                                     className="px-3 py-2 rounded-md text-sm font-medium text-golden"
                                 >
@@ -87,7 +87,7 @@ function Navbar() {
                                     className="px-3 py-2 rounded-md text-sm font-medium text-golden"
                                 >
                                     UK Education
-                                </a>
+                                </a> */}
                                 <a
                             href="#"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
@@ -120,18 +120,18 @@ function Navbar() {
                         >
                             Outsourcing(RPO)
                         </Link>
-                        <a
+                        {/* <a
                             href="#"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
                         >
                             UK Healthcare Placement
-                        </a>
-                        <a
+                        </a> */}
+                        {/* <a
                             href="#"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
                         >
                             UK Education
-                        </a>
+                        </a> */}
                         <a
                             href="#"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
