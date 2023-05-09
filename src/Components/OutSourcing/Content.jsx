@@ -1,5 +1,6 @@
 import React from 'react'
 import image from "../images/service6.jpg"
+import image2 from "../images/outsourcing.jpg"
 
 function Content() {
     return (
@@ -43,15 +44,16 @@ function Content() {
                     {/* third paragraph */}
                     <h3 className='text-2xl mt-6 border-b-2 border-golden'>Efficiency</h3>
                     <p className="mt-6 text-gray-600">
-                        We use advanced human resource technologies that help streamline important HR HR function such as database handling on-screen projects tasks migration voice over the phone functions etc.This will help you the managers spend less time doing paperwork and more time dedicated to improve the efficiency and effectiveness of the workforce Many organization around the world are oustsourcing bussiness process to speclialized outsource servie provider.The most important factor that drives companies to out sourcing  
+                       We use advanced human resource technologies that help streamline important.HR functions such as database handling on-screen projects, task migration, voice over the phone functions, etc.This will help you the managers spend less time doing paperwork and more time dedicated to improve the efficiency and effectiveness of the workforce
                     </p>
                     <p className="mt-6 text-gray-600">
-                        We do not compromise on employee development,because it plays a vital role in the productivity and efficiency of our firm.Since employees need a closer eye to have a sucessfull bussiness run and achieving thier goals,they should be up to date on the system and their management.This will reduce the workload of managers by minimizing the number of fallacies that may occur inside and outside the project.We have a dedicated HR & training manager and team of well-trained & experienced management helps to maintain world-class trainig to our staff
+                        Many organizaton around the world are oustsourcing bussiness process to specialized outsource service providers.The most important factor that drives companies to outsource thier complete or part of thier operation to paretner companies with the desire to reduce cost, increase customer satisfaction and improve theier ability to continuosly deliver new and enhance service to thier customer. With rapid development in the outsourcing process, many organizaton are seeking to gain or maiantain a competitive edge over their competitors by outsource service provider will allow them to gain this competitive advantage quickly and effectively.
                     </p>
                     <p className="mt-6 text-gray-600">
-                        Therefore you no longer need to invest in recruiting and training expensive resources for your bussiness.Extenseur HR provide and take care of the resourcing needs within thier pool of highly skilled human resource database.The resource we employ are well educated in the respective businness areas and are experienced in handling the bussiness needs of companies that want to outsource.Further we employ world class business practise perfected over the years by catering to customer as per their needs
+                        When you outsource your bussiness that needs an outsourcing partner,Extenseur HR brings years of experience in bussiness practices and expertise in devlivering complex outsourcing projects. Thus we can do the job better with our knowledge and undrestanding of the domain. This leads to an increase in productivity and efficiency in the process therby contributing to the bottom-line of your company.
                     </p>
-                    <img src={image} className='mt-6 w-full object-cover rounded-lg shadow-lg' alt="image not found" />
+                    
+                    <img src={image2} className='mt-6 w-full object-cover rounded-lg shadow-lg' alt="image not found" />
                 </div>
             </div>
         </div>
