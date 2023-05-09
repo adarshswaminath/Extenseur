@@ -1,75 +1,48 @@
 import React from 'react';
-import image from "../images/court.jpg";
-import { TiTick } from 'react-icons/ti';
 
-
-// track visa application
 const VisaTrack = () => {
-    return (
-        <div>
-            <h1 className="title text-2xl">How to track your visa application(Applicants in India? )</h1>
-            <div className="grid lg:flex">
-                <div className="grid w-full lg:w-1/2">
-                    Go to Bl
-                </div>
-                <div className="grid w-full lg:w-1/2"></div>
-            </div>
+  return (
+    <div className='px-4 py-8 md:px-8 md:py-12 lg:px-12 lg:py-16 xl:px-16 xl:py-20'>
+      <h1 className='text-2xl font-semibold mb-6'>How to track your visa application (Applicants in India?)</h1>
+      <div className='flex flex-col lg:flex-row lg:gap-8'>
+        <div className='w-full lg:w-1/2'>
+          <p className='mb-6'>
+            Go to <a href='https://www.bluedart.com/' className='text-golden hover:underline'>BlueDart</a> website and head over to the TrackDart section. Select the Ref No. option and enter your visa application number starting with GWF and press the "GO" button to track your application.
+          </p>
+          <p className='mb-6'>
+            <span className='font-bold'>Note:</span> The result will show only if your processed application is dispatched to your chosen delivery address.
+          </p>
+          <ul className='list-disc list-inside mb-6'>
+            <li>
+              You can contact UK visa and immigration from inside or outside the UK. <a href='' className='text-golden hover:underline'>Click here</a>
+            </li>
+            <li className='mt-2'>
+              Contact center staff cannot give you advice about your personal circumstances.
+            </li>
+          </ul>
         </div>
-    )
-}
+        <div className='w-full lg:w-1/2'>
+          <iframe
+            src='https://www.youtube.com/embed/dJXCE6J1Tzo'
+            title='YouTube video player'
+            width='100%'
+            height='315'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+            className='w-full'
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 function Process() {
-    return (
-        <div className='p-4 md:p-8 lg:p-12 xl:p-16'>
-            {/* <div className="grid lg:flex gap-8">
-                <div className="grid w-full lg:w-1/2">
-                    <h1 className="text-3xl">UK visa application process</h1>
-                    <div className="mt-6">
-                        <li className='flex items-center'>
-                            <TiTick className='text-xl text-golden' />
-                            <span className='ml-2'>Check if you need a visa to the UK</span>
-                        </li>
-                        <li className='flex items-center'>
-                            <TiTick className='text-xl text-golden' />
-                            <span className='ml-2'>Find out the correct visa application category or sub-category</span>
-                        </li>
-                        <li className='flex items-center'>
-                            <TiTick className='text-xl text-golden' />
-                            <span className='ml-2'>Visa application center in your country to book an appointment </span>
-                        </li>
-                        <li className='flex items-center'>
-                            <TiTick className='text-xl text-golden' />
-                            <span className='ml-2'>Visa application payment</span>
-                        </li>
-                        <li className='flex items-center'>
-                            <TiTick className='text-xl text-golden' />
-                            <span className='ml-2'>Check supporting document to submit with the visa application</span>
-                        </li>
-                        <li className='flex items-center'>
-                            <TiTick className='text-xl text-golden' />
-                            <span className='ml-2'>Visa application submission</span>
-                        </li>
-                        <li className='flex items-center'>
-                            <TiTick className='text-xl text-golden' />
-                            <span className='ml-2'>Collection of passport or travel document</span>
-                        </li>
-                    </div>
-                    <img src={image} className='mt-2' alt="" />
-                </div>
-              
-                <div className="grid w-full lg:w-1/2">
-                    <h1 className="text-3xl">Other Services & Assistance</h1>
-                    <p>
-                    Manage your Application(Visa processing times,application & documents chek,online payament assistance,form filling assistance, biometric information, premium service,report a change)
-                    </p>
-                  
-                </div>
-              
-            </div> */}
-            <VisaTrack/>
-        </div>
-
-    )
+  return (
+    <div className='bg-background'>
+      <VisaTrack />
+    </div>
+  );
 }
 
 export default Process;
