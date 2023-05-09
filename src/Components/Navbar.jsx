@@ -88,12 +88,12 @@ function Navbar() {
                                 >
                                     UK Education
                                 </a> */}
-                                <a
-                            href="#"
+                                <Link
+                            to="/visa&immigration"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
                         >
                             Visa & Immigration
-                        </a>
+                        </Link>
                         <Link
                             to="/about"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
@@ -132,12 +132,12 @@ function Navbar() {
                         >
                             UK Education
                         </a> */}
-                        <a
-                            href="#"
+                        <Link
+                            to="/visa&immigration"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
                         >
                             Visa & Immigration
-                        </a>
+                        </Link>
                         <Link
                             to="/about"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"

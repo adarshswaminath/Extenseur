@@ -1,11 +1,14 @@
+// npm imports
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// components
 import Navbar from "./Components/Navbar"
 import Home from "./Components/Home/Home"
-import logo from "./Components/images/logo.png"
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Outsourcing from "./Components/OutSourcing/Outsourcing";
 import About from "./Components/About/About";
+import Visa from "./Components/Visa/Visa";
+// images and files
+import logo from "./Components/images/logo.png"
 import "./App.css"
-
 function Top() {
   return (
     <div className="flex justify-between m-2">
@@ -58,6 +61,7 @@ function App() {
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/outsourcing" element={<Outsourcing />}></Route>
           <Route exact path="/about" element={<About/>}></Route>
+          <Route exact path="/visa&immigration" element={<Visa/>}></Route>
         </Routes>
 
 

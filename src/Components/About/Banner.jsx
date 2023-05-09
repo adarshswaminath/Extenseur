@@ -48,7 +48,7 @@ function Banner() {
                     </div>
                 </div>
             </div>
-            <h2 class="spcl-font text-4xl lg:text-5xl py-3">Company History</h2>
+            <h2 className="spcl-font text-4xl lg:text-5xl py-3">Company History</h2>
             <div className="h-4 bg-golden"></div>
             <div className="bg-tealblue h-5 w-1/3  rounded-br-full"></div>
             {/* text placed */}

@@ -4,13 +4,13 @@ import React from 'react'
 const Card = ({heading,content}) => {
   return (
     <div>
-      <div class="w-64 bg-tealblue border border-gray-200 rounded-lg shadow">
-            <a href="#" class="block p-6">
-              <h5 class="inline-flex items-center text-2xl font-medium text-golden">
-                <BsFillArrowRightCircleFill class="h-8 w-8 mr-2" />
+      <div className="w-64 bg-tealblue border border-gray-200 rounded-lg shadow">
+            <a href="#" className="block p-6">
+              <h5 className="inline-flex items-center text-2xl font-medium text-golden">
+                <BsFillArrowRightCircleFill className="h-8 w-8 mr-2" />
                 {heading}
               </h5>
-              <p class="mt-4 text-white">
+              <p className="mt-4 text-white">
                 {content}
               </p>
             </a>
