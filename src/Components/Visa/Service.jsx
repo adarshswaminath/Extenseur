@@ -1,6 +1,6 @@
 import React from 'react'
 import student from "../images/student.jpg"
-import tourist from "../images/traveller.jpg"
+import tourist from "../images/tourist.jpg"
 import citizenship from "../images/citizenship.jpg"
 
 function ServiceCard({ heading, content,image }) {
@@ -40,7 +40,7 @@ function Service() {
                     <ServiceCard heading="Student Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={student}/>
                 
                
-                    <ServiceCard heading="Tourist & Visitor Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={student}/>
+                    <ServiceCard heading="Tourist & Visitor Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={tourist}/>
                     <ServiceCard heading="Tourist & Visitor Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={tourist}/>
                     
                     <ServiceCard heading="Citizenship" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={citizenship}/>
