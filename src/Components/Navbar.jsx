@@ -109,12 +109,14 @@ function Navbar() {
                 <div className="sm:hidden" id="mobile-menu">
                     <div className="px-2 pt-2 pb-3 space-y-1">
                         <Link
+                            onClick={toggleMenu}
                             to="/"
                             className="block px-3 py-2 rounded-md text-base font-medium text-white bg-golden"
                         >
                             Home
                         </Link>
                         <Link
+                            onClick={toggleMenu}
                             to="/outsourcing"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
                         >
@@ -133,12 +135,14 @@ function Navbar() {
                             UK Education
                         </a> */}
                         <Link
+                            onClick={toggleMenu}
                             to="/visa&immigration"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
                         >
                             Visa & Immigration
                         </Link>
                         <Link
+                            onClick={toggleMenu}
                             to="/about"
                             className="block px-3 py-2 rounded-md text-base font-medium text-golden"
                         >
