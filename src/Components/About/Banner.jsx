@@ -8,7 +8,7 @@ import { BsFlagFill } from "react-icons/bs"
 function Banner() {
     return (
         <div className="w-full">
-            <div className="p-8 bg-tealblue text-center">
+            <div className="p-4 md:p-8 lg:p-12 xl:p-16 bg-tealblue text-center">
                 {/* heading and label */}
                 <h2 className="spcl-font text-2xl font-semibold text-golden">
                     Why Extenseur HR, Immigration & Consulting?
