@@ -32,23 +32,22 @@ function Service() {
             </p>
             {/* cards */}
             <div className="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-2">
-                <div className="flex flex-col gap-3">
+
                     <ServiceCard heading="Skilled Worker Visa" content="A skilled Worker visa allows you to come to or stay in the UK to do an eligible job with an approved employer" image="https://flowbite.com/docs/images/blog/image-4.jpg"/>
-                    <ServiceCard heading="Student Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={student}/>
-                </div>
-                <div className="flex flex-col gap-3">
                     <ServiceCard heading="Skilled Worker Visa" content="A skilled Worker visa allows you to come to or stay in the UK to do an eligible job with an approved employer" image="https://flowbite.com/docs/images/blog/image-4.jpg"/>
+                    
                     <ServiceCard heading="Student Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={student}/>
-                </div>
-                <div className="flex flex-col gap-3">
+                    <ServiceCard heading="Student Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={student}/>
+                
+               
                     <ServiceCard heading="Tourist & Visitor Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={tourist}/>
-                    <ServiceCard heading="Citizenship" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={citizenship}/>
-                </div>
-                <div className="flex flex-col gap-3">
                     <ServiceCard heading="Tourist & Visitor Visa" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={tourist}/>
+                    
                     <ServiceCard heading="Citizenship" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={citizenship}/>
+                    <ServiceCard heading="Citizenship" content="Aliquam pulvinar vestibulum bandit.Donec sed nist libero.Fusce diginissim luctus sem eu dapibus.Soro Pellentesque vulputate quam" image={citizenship}/>
+                
                 </div>
-            </div>
+               
         </div>
     )
 }
