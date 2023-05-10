@@ -13,10 +13,10 @@ function Top() {
   return (
     <div className="flex justify-between m-2">
       <div className="flex gap-2">
-        <span className='text-golden'>Phone</span>
-        <span>+91&nbsp;6282888688</span>
-        <span className='text-golden'>Emial</span>
-        <a href='mailto:info@visahub.com'>info@visahub.com</a>
+        <span className='text-golden text-sm'>Phone</span>
+        <span className='text-sm'>+91&nbsp;6282888688</span>
+        <span className='text-golden text-sm'>Email</span>
+        <a className='text-sm' href='mailto:info@visahub.com'>info@visahub.com</a>
       </div>
       {/* ----------- */}
       <div className="mt-4 space-x-6 justify-center sm:mt-0 hidden sm:flex ">
