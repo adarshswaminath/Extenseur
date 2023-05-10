@@ -1,5 +1,11 @@
 import React from 'react';
-import image from "../images/bussiness1.jpg";
+import uk1 from "../images/bussiness1.jpg";
+import uk2 from "../images/uk1.jpg"
+import uk3 from "../images/uk2.jpg"
+import uk4 from "../images/uk3.jpg"
+import uk5 from "../images/uk4.jpg"
+import uk6 from "../images/uk5.jpg"
+
 
 function Hero() {
   return (
@@ -18,12 +24,12 @@ function Hero() {
         </div>
         {/* second grid */}
         <div className='grid lg:w-1/2 lg:grid-cols-3 xl:grid-cols-2 xl:gap-8'>
-          <img src={image} className='w-full mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
-          <img src={image} className='w-full mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
-          <img src={image} className='w-full mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
-          <img src={image} className='w-full mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
-          <img src={image} className='w-full mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
-          <img src={image} className='w-full mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
+          <img src={uk1} className='w-full object-cover mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
+          <img src={uk2} className='w-full object-cover mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
+          <img src={uk3} className='w-full object-cover mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
+          <img src={uk4} className='w-full object-cover mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
+          <img src={uk5} className='w-full object-cover mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
+          <img src={uk6} className='w-full object-cover mt-3 h-52 md:h-auto rounded-lg' alt='Image' />
         </div>
       </div>
     </div>
