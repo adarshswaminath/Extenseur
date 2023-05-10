@@ -17,9 +17,9 @@ function Library() {
             Schedule a Consultation
           </a>
         </div>
-        <div className="col-span-12 lg:col-span-5 flex justify-center mt-4 lg:mt-0">
-          <img src={image} alt="mockup" className="rounded-lg" />
-        </div>
+        <div className="col-span-12 lg:col-span-5">
+            <img src={image} alt="mockup" className="rounded" />
+          </div>
       </div>
     </section>
   </div>
