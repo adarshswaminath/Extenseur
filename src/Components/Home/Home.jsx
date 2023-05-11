@@ -12,7 +12,7 @@ import Box from './Box'
 function Home() {
   return (
     <div>
-        <Hero/>
+        {/* <Hero/> */}
         <Hero2/>
         <Library/>
         <Service/>

@@ -74,74 +74,74 @@ function Navbar() {
                         </div>
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex space-x-4">
-                                <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium text-white bg-golden"
+                                <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium bg-golden"
                                 >Home</Link>
                                 <Link to="/outsourcing"
-                                className="px-3 py-2 rounded-md text-sm font-medium text-golden"
+                                    className="px-3 py-2 rounded-md text-sm font-medium hover:text-golden"
                                 >Outsourcing(RPO)</Link>
-                               
+
                                 <Link
-                            to="/visa&immigration"
-                            className="block px-3 py-2 rounded-md text-base font-medium text-golden"
-                        >
-                            Visa & Immigration
-                        </Link>
-                        <Link
-                            to="/about"
-                            className="block px-3 py-2 rounded-md text-base font-medium text-golden"
-                        >
-                            About
-                        </Link>
+                                    to="/visa&immigration"
+                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                >
+                                    Visa & Immigration
+                                </Link>
+                                <Link
+                                    to="/about"
+                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                >
+                                    About
+                                </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <Transition
-  show={isMenuOpen}
-  enter="transition-opacity duration-300"
-  enterFrom="opacity-0"
-  enterTo="opacity-100"
-  leave="transition-opacity duration-300"
-  leaveFrom="opacity-100"
-  leaveTo="opacity-0"
->
-  {isMenuOpen && (
-    <div className="sm:hidden" id="mobile-menu">
-      <div className="px-2 pt-2 pb-3 space-y-1">
-        {/* Mobile menu content */}
-        <Link
-          onClick={toggleMenu}
-          to="/"
-          className="block px-3 py-2 rounded-md text-base font-medium text-white bg-golden"
-        >
-          Home
-        </Link>
-        <Link
-          onClick={toggleMenu}
-          to="/outsourcing"
-          className="block px-3 py-2 rounded-md text-base font-medium text-golden"
-        >
-          Outsourcing(RPO)
-        </Link>
-        <Link
-          onClick={toggleMenu}
-          to="/visa&immigration"
-          className="block px-3 py-2 rounded-md text-base font-medium text-golden"
-        >
-          Visa & Immigration
-        </Link>
-        <Link
-          onClick={toggleMenu}
-          to="/about"
-          className="block px-3 py-2 rounded-md text-base font-medium text-golden"
-        >
-          About
-        </Link>
-      </div>
-    </div>
-  )}
-</Transition>
+                show={isMenuOpen}
+                enter="transition-opacity duration-300"
+                enterFrom="opacity-0"
+                enterTo="opacity-100"
+                leave="transition-opacity duration-300"
+                leaveFrom="opacity-100"
+                leaveTo="opacity-0"
+            >
+                {isMenuOpen && (
+                    <div className="sm:hidden" id="mobile-menu">
+                        <div className="px-2 pt-2 pb-3 space-y-1">
+                            {/* Mobile menu content */}
+                            <Link
+                                onClick={toggleMenu}
+                                to="/"
+                                className="block px-3 py-2 rounded-md text-base font-medium bg-golden"
+                            >
+                                Home
+                            </Link>
+                            <Link
+                                onClick={toggleMenu}
+                                to="/outsourcing"
+                                className="block px-3 py-2 rounded-md text-base font-medium"
+                            >
+                                Outsourcing(RPO)
+                            </Link>
+                            <Link
+                                onClick={toggleMenu}
+                                to="/visa&immigration"
+                                className="block px-3 py-2 rounded-md text-base font-medium "
+                            >
+                                Visa & Immigration
+                            </Link>
+                            <Link
+                                onClick={toggleMenu}
+                                to="/about"
+                                className="block px-3 py-2 rounded-md text-base font-medium "
+                            >
+                                About
+                            </Link>
+                        </div>
+                    </div>
+                )}
+            </Transition>
 
         </nav>
     );
