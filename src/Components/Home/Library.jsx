@@ -3,9 +3,9 @@ import image from "../images/library.jpg"
 
 function Library() {
   return (
-    <div  className=''>
+    <div >
     <section className="bg-background">
-      <div className="grid max-w-screen-xl grid-cols-12 gap-8 px-4 py-8 mx-auto lg:gap-16 lg:py-16">
+      <div className="grid grid-cols-12 gap-8 px-4 py-8 mx-auto lg:gap-16 lg:py-16">
         <div className="col-span-12 lg:col-span-7 self-center">
           <h1 className="spcl-font max-w-2xl mb-4 text-4xl tracking-tight leading-none md:text-5xl xl:text-5xl">
             Want to study in Top Universities Abroad?
