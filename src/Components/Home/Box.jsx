@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Box() {
+  
   return (
     <div className="container mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -65,7 +66,7 @@ function Box() {
         {/* white box ends */}
         {/* golden box starts */}
         <div className="p-8 bg-golden">
-          <div className="quick-contact">
+          {/* <div className="quick-contact">
             <h1 className="text-4xl mb-8 text-center">Quick Contact</h1>
             <p className="text-gray-600 mb-8">
               We are delighted to assist you with your qualifications, study options, career plans,
@@ -108,7 +109,7 @@ function Box() {
                 <a href="#" className="text-blue-500">View Our All Office & Location</a>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* golden box ends */}
       </div>
