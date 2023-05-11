@@ -11,7 +11,7 @@ import Box from './Box'
 
 function Home() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
         {/* <Hero/> */}
         <Hero2/>
         <Library/>

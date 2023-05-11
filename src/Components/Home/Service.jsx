@@ -26,7 +26,7 @@ const ServiceCard = ({ title, imageUrl, linkUrl }) => {
 
 function Service() {
     return (
-        <div className='p-4 md:p-8 lg:p-12 xl:p-16'>
+        <div>
             <div className="mt-6 flex flex-col items-center">
                 <h1 className="spcl-font text-4xl text-center mb-6">Our Services</h1>
                 <p className="max-w-2xl text-gray-500 font-light text-center mb-8 md:text-lg lg:text-xl">

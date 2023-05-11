@@ -3,7 +3,7 @@ import image from "../images/library.jpg"
 
 function Library() {
   return (
-    <div >
+    <div>
     <section className="bg-background">
       <div className="grid grid-cols-12 gap-8 px-4 py-8 mx-auto lg:gap-16 lg:py-16">
         <div className="col-span-12 lg:col-span-7 self-center">
