@@ -4,7 +4,7 @@ import logo from "../images/logo.png"
 
 function About() {
     return (
-        <div>
+        <div className='p-4 md:p-8 lg:p-12 xl:p-16'>
             <section className="bg-white" >
                 <div className="grid max-w-screen-xl gap-8 px-4 py-8 mx-auto lg:gap-16 lg:py-16" >
                     <div className="mt-6 bg-white p-5 shadow-2xl" >

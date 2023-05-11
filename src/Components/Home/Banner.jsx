@@ -4,7 +4,7 @@ import image from "../images/group.jpg"
 function Banner() {
     return (
         <div
-            className="flex relative items-center justify-center bg-cover bg-center"
+            className="flex relative items-center justify-center bg-cover bg-center p-4 md:p-8 lg:p-12 xl:p-16"
             style={{ backgroundImage: `url(${image})` }}
         >
             <div className="absolute inset-0 bg-black opacity-60"></div>

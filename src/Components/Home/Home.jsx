@@ -11,7 +11,7 @@ import Box from './Box'
 
 function Home() {
   return (
-    <div className='p-4 md:p-8 lg:p-12 xl:p-16'>
+    <div>
         {/* <Hero/> */}
         <Hero2/>
         <Library/>
