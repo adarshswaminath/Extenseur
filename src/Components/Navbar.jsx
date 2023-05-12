@@ -87,6 +87,18 @@ function Navbar() {
                                     Visa & Immigration
                                 </Link>
                                 <Link
+                                    to="#"
+                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                >
+                                    News & Updates
+                                </Link>
+                                <Link
+                                    to="#"
+                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                >
+                                    Contact
+                                </Link>
+                                <Link
                                     to="/about"
                                     className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
                                 >
@@ -124,12 +136,27 @@ function Navbar() {
                             >
                                 Outsourcing(RPO)
                             </Link>
+                            
                             <Link
                                 onClick={toggleMenu}
                                 to="/visa&immigration"
                                 className="block px-3 py-2 rounded-md text-base font-medium "
                             >
                                 Visa & Immigration
+                            </Link>
+                            <Link
+                                onClick={toggleMenu}
+                                to=""
+                                className="block px-3 py-2 rounded-md text-base font-medium "
+                            >
+                                News & Updates 
+                            </Link>
+                            <Link
+                                onClick={toggleMenu}
+                                to=""
+                                className="block px-3 py-2 rounded-md text-base font-medium "
+                            >
+                                Contact
                             </Link>
                             <Link
                                 onClick={toggleMenu}
