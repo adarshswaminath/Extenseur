@@ -76,16 +76,23 @@ function Navbar() {
                             <div className="flex space-x-4">
                                 <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium bg-golden"
                                 >Home</Link>
-                                <Link to="/outsourcing"
-                                    className="px-3 py-2 rounded-md text-sm font-medium hover:text-golden"
-                                >Outsourcing(RPO)</Link>
-
+                                <Link
+                                    to="/about"
+                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                >
+                                    About Us
+                                </Link>
                                 <Link
                                     to="/visa&immigration"
                                     className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
                                 >
                                     Visa & Immigration
                                 </Link>
+                                <Link to="/outsourcing"
+                                    className="px-3 py-2 rounded-md text-sm font-medium hover:text-golden"
+                                >Outsourcing(RPO)</Link>
+
+                                
                                 <Link
                                     to="#"
                                     className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
@@ -96,14 +103,9 @@ function Navbar() {
                                     to="#"
                                     className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
                                 >
-                                    Contact
+                                    Contact Us
                                 </Link>
-                                <Link
-                                    to="/about"
-                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
-                                >
-                                    About
-                                </Link>
+                                
                             </div>
                         </div>
                     </div>
@@ -131,12 +133,11 @@ function Navbar() {
                             </Link>
                             <Link
                                 onClick={toggleMenu}
-                                to="/outsourcing"
-                                className="block px-3 py-2 rounded-md text-base font-medium"
+                                to="/about"
+                                className="block px-3 py-2 rounded-md text-base font-medium "
                             >
-                                Outsourcing(RPO)
+                                About Us
                             </Link>
-                            
                             <Link
                                 onClick={toggleMenu}
                                 to="/visa&immigration"
@@ -144,6 +145,15 @@ function Navbar() {
                             >
                                 Visa & Immigration
                             </Link>
+                            <Link
+                                onClick={toggleMenu}
+                                to="/outsourcing"
+                                className="block px-3 py-2 rounded-md text-base font-medium"
+                            >
+                                Outsourcing(RPO)
+                            </Link>
+                            
+                           
                             <Link
                                 onClick={toggleMenu}
                                 to=""
@@ -156,15 +166,9 @@ function Navbar() {
                                 to=""
                                 className="block px-3 py-2 rounded-md text-base font-medium "
                             >
-                                Contact
+                                Contact Us
                             </Link>
-                            <Link
-                                onClick={toggleMenu}
-                                to="/about"
-                                className="block px-3 py-2 rounded-md text-base font-medium "
-                            >
-                                About
-                            </Link>
+                            
                         </div>
                     </div>
                 )}
