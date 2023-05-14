@@ -94,13 +94,13 @@ function Navbar() {
 
                                 
                                 <Link
-                                    to="#"
+                                    to="/news&updates"
                                     className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
                                 >
                                     News & Updates
                                 </Link>
                                 <Link
-                                    to="#"
+                                    to="/contact"
                                     className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
                                 >
                                     Contact Us
@@ -156,14 +156,14 @@ function Navbar() {
                            
                             <Link
                                 onClick={toggleMenu}
-                                to=""
+                                to="/news&updates"
                                 className="block px-3 py-2 rounded-md text-base font-medium "
                             >
                                 News & Updates 
                             </Link>
                             <Link
                                 onClick={toggleMenu}
-                                to=""
+                                to="/contact"
                                 className="block px-3 py-2 rounded-md text-base font-medium "
                             >
                                 Contact Us

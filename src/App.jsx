@@ -9,6 +9,8 @@ import Visa from "./Components/Visa/Visa";
 // images and files
 import logo from "./Components/images/logo.png"
 import "./App.css"
+import News from './Components/News/News';
+import Contact from './Components/Contact/Contact';
 function Top() {
   return (
     <div className="flex justify-between m-2">
@@ -62,6 +64,8 @@ function App() {
           <Route exact path="/outsourcing" element={<Outsourcing />}></Route>
           <Route exact path="/about" element={<About/>}></Route>
           <Route exact path="/visa&immigration" element={<Visa/>}></Route>
+          <Route exact path="/news&updates" element={<News/>}></Route>
+          <Route exact path="/contact" element={<Contact/>}></Route>
         </Routes>
 
 
