@@ -63,7 +63,7 @@ function App() {
         <hr className="w-full bg-gray-400 h-px" />
         <Navbar style={{ zIndex: 100 }}/>
         {/* contact movable button button  */}
-        <div className="fixed overflow-auto scrollable-container">
+        <div className="fixed inset-0 flex justify-end items-end h-screen ">
           <Draggable>
             <div className="fixed p-3">
               <button className="border-white p-1 bg-golden rounded-full">
