@@ -61,9 +61,9 @@ function App() {
         {/* UserInterface */}
         <Top />
         <hr className="w-full bg-gray-400 h-px" />
-        <Navbar />
+        <Navbar style={{ zIndex: 100 }}/>
         {/* contact movable button button  */}
-        <div className="fixed right-0 bottom-0 left-0 top-0 overflow-auto scrollable-container">
+        <div className="fixed overflow-auto scrollable-container">
           <Draggable>
             <div className="fixed p-3">
               <button className="border-white p-1 bg-golden rounded-full">
