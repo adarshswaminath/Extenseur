@@ -7,3 +7,10 @@
 body{
     font-family: 'Gothic A1', sans-serif;
 }
+.scrollable-container {
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+  }
+  
+  .handle {
+    cursor: move;
+  }

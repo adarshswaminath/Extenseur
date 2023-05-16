@@ -63,30 +63,29 @@ function App() {
         <hr className="w-full bg-gray-400 h-px" />
         <Navbar />
         {/* contact movable button button  */}
-        <Draggable>
-        <div className="fixed p-3">
-          <button className='border-white p-1 bg-golden rounded-full'>
-            <button className="bg-background text-golden rounded-full p-3">
-              <BsWhatsapp/>
-            </button>
-          </button>
+        <div className="fixed right-0 bottom-0 left-0 top-0 overflow-auto scrollable-container">
+          <Draggable>
+            <div className="fixed p-3">
+              <button className="border-white p-1 bg-golden rounded-full">
+                <button className="bg-background text-golden rounded-full p-3">
+                  <a href="https://www.google.com"><BsWhatsapp /></a>
+                </button>
+              </button>
+            </div>
+          </Draggable>
         </div>
-        </Draggable>
-          {/* Routing things */}
-          <Routes>
+        {/* Routing things */}
+        <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/outsourcing" element={<Outsourcing />}></Route>
-          <Route exact path="/about" element={<About/>}></Route>
-          <Route exact path="/visa&immigration" element={<Visa/>}></Route>
-          <Route exact path="/news&updates" element={<News/>}></Route>
-          <Route exact path="/contact" element={<Contact/>}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/visa&immigration" element={<Visa />}></Route>
+          <Route exact path="/news&updates" element={<News />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
         </Routes>
-        
-
-      
       </Router>
     </main>
-  )
+  );
 }
 
 export default App
