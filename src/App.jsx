@@ -1,5 +1,8 @@
 // npm imports
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Draggable from 'react-draggable';
+// icon
+import {BsWhatsapp} from "react-icons/bs"
 // components
 import Navbar from "./Components/Navbar"
 import Home from "./Components/Home/Home"
@@ -11,6 +14,7 @@ import logo from "./Components/images/logo.png"
 import "./App.css"
 import News from './Components/News/News';
 import Contact from './Components/Contact/Contact';
+
 function Top() {
   return (
     <div className="flex justify-between m-2">
@@ -58,6 +62,16 @@ function App() {
         <Top />
         <hr className="w-full bg-gray-400 h-px" />
         <Navbar />
+        {/* contact movable button button  */}
+        <Draggable>
+        <div className="fixed p-3">
+          <button className='border-white p-1 bg-golden rounded-full'>
+            <button className="bg-background text-golden rounded-full p-3">
+              <BsWhatsapp/>
+            </button>
+          </button>
+        </div>
+        </Draggable>
           {/* Routing things */}
           <Routes>
           <Route exact path="/" element={<Home />}></Route>
@@ -67,7 +81,7 @@ function App() {
           <Route exact path="/news&updates" element={<News/>}></Route>
           <Route exact path="/contact" element={<Contact/>}></Route>
         </Routes>
-
+        
 
       
       </Router>

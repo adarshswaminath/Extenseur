@@ -3,19 +3,10 @@ import React from 'react';
 function Box() {
   
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* white box starts */}
-        <div className="p-8 bg-white">
-          
-        </div>
-        {/* white box ends */}
-        {/* golden box starts */}
-        <div className="p-8 bg-golden">
-          
-        </div>
-        {/* golden box ends */}
-      </div>
+    <div className="grid lg:flex">
+        <div className="w-full lg:w-1/2 bg-background p-6"></div>
+        <div className="w-full lg:w-1/2 bg-golden p-6"></div>
+
     </div>
   );
 }

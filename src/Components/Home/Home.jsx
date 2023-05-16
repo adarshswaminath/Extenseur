@@ -19,7 +19,7 @@ function Home() {
         <Banner/>
         <About/>
         <Signup/>
-        {/* <Box/> */}
+        <Box/>
         <Footer/>
     </div>
   )
