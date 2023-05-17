@@ -12,8 +12,6 @@ function LoginPage() {
         <button class="w-full mb-3 bg-golden text-white py-3 rounded-full font-bold text-lg md:text-xl">Submit</button>
         <Link to="/signup" className='m-auto p-3 mt-4'>Create a account ?</Link>
     </form>
-
-    
 </div>
 
   )
