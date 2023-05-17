@@ -62,46 +62,46 @@ function Navbar() {
                     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex-shrink-0">
                             <img
-                                className="block lg:hidden h-8 w-auto"
+                                className="block lg:hidden h-9 w-auto"
                                 src={image}
                                 alt="Workflow"
                             />
                             <img
-                                className="hidden lg:block h-8 w-auto"
+                                className="hidden lg:block h-12 w-auto"
                                 src={image}
                                 alt="Workflow"
                             />
                         </div>
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex space-x-4">
-                                <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium bg-golden"
+                                <Link to="/" className="px-3 py-2 rounded-md text-xl text-golden font-medium border-b-2 border-r-2 border-golden hover:bg-golden hover:text-white"
                                 >Home</Link>
                                 <Link
                                     to="/about"
-                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                    className="block px-3 py-2 rounded-md text-xl font-medium hover:text-golden"
                                 >
                                     About Us
                                 </Link>
                                 <Link
                                     to="/visa&immigration"
-                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                    className="block px-3 py-2 rounded-md text-xl font-medium hover:text-golden"
                                 >
                                     Visa & Immigration
                                 </Link>
                                 <Link to="/outsourcing"
-                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                    className="block px-3 py-2 rounded-md text-xl font-medium hover:text-golden"
                                 >Outsourcing(RPO)</Link>
 
                                 
                                 <Link
                                     to="/news&updates"
-                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                    className="block px-3 py-2 rounded-md text-xl font-medium hover:text-golden"
                                 >
                                     News & Updates
                                 </Link>
                                 <Link
                                     to="/contact"
-                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
+                                    className="block px-3 py-2 rounded-md text-xl font-medium hover:text-golden"
                                 >
                                     Contact Us
                                 </Link>
