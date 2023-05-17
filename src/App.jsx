@@ -14,6 +14,8 @@ import logo from "./Components/images/logo.png"
 import "./App.css"
 import News from './Components/News/News';
 import Contact from './Components/Contact/Contact';
+import User from './Components/User/User';
+import Signup from './Components/User/Signup';
 
 function Top() {
   return (
@@ -76,6 +78,8 @@ function App() {
           <Route exact path="/visa&immigration" element={<Visa />}></Route>
           <Route exact path="/news&updates" element={<News />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
+          <Route exact path="/user" element={<User/>}></Route> 
+          <Route exact path="/signup" element={<Signup/>}></Route>
         </Routes>
       </Router>
     </main>
