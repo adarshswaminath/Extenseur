@@ -15,7 +15,7 @@ function About() {
                             Extenseur HR is a "fully administration regulatory 'support firm' with remote work human asset practical experience ". Unlike different firm that offer some sort of administration, Extenseur HR incorporate risk management coupled with the labour benefit that ensure the end goal to be achieved with the least potential obligation to the client. Our service range from placement for healthcare Professional, Visa & Immigration, professional registration, assessment services with complete human resource solution and outsourcing service. As consultant, our winning qualities are professionalism, expert knowledge, time management, real result promptness, and guaranteed client satisfaction.
                         </p>
                     </div>
-                    <img src={logo} alt="logo image" className="mx-auto" />
+                   
                 </div>
             </section>
         </div>

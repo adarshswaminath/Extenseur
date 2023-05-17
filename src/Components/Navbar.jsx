@@ -89,7 +89,7 @@ function Navbar() {
                                     Visa & Immigration
                                 </Link>
                                 <Link to="/outsourcing"
-                                    className="px-3 py-2 rounded-md text-sm font-medium hover:text-golden"
+                                    className="block px-3 py-2 rounded-md text-base font-medium hover:text-golden"
                                 >Outsourcing(RPO)</Link>
 
                                 
@@ -141,7 +141,7 @@ function Navbar() {
                             <Link
                                 onClick={toggleMenu}
                                 to="/visa&immigration"
-                                className="block px-3 py-2 rounded-md text-base font-medium "
+                                className="block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Visa & Immigration
                             </Link>

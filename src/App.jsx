@@ -63,12 +63,13 @@ function App() {
         <hr className="w-full bg-gray-400 h-px" />
         <Navbar style={{ zIndex: 100 }}/>
         {/* contact movable button button  */}
-        <div className="fixed inset-0 flex justify-end items-end h-screen ">
+        {/* fixed inset-0 flex justify-end items-end h-screen  */}
+        <div className="fixed overflow-auto scrollable-container justify-end items-end">
           <Draggable>
             <div className="fixed p-3">
-              <button className="border-white p-1 bg-golden rounded-full">
-                <button className="bg-background text-golden rounded-full p-3">
-                  <a href="https://www.google.com"><BsWhatsapp /></a>
+              <button className="border-white p-1 bg-green-500 rounded-full">
+                <button className="bg-gray-50 text-green-500 rounded-full p-3">
+                  <a href="https://www.google.com"><BsWhatsapp className='text-xl lg:text-2xl' /></a>
                 </button>
               </button>
             </div>
