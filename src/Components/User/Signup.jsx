@@ -2,7 +2,7 @@ import React from 'react'
 
 function Signup() {
   return (
-    <div class="h-screen flex items-center justify-center">
+    <div class="flex items-center justify-center">
     <form class="max-w-lg w-full bg-background p-8 md:p-12 rounded-lg">
         <h1 class="text-golden text-3xl md:text-4xl mb-6">Create Account</h1>
         {/* <!-- Names grid --> */}

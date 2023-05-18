@@ -87,7 +87,7 @@ function Footer() {
                                         </li>
                                         
                                         <li className="mb-4">
-                                            <a href="#" className="hover:underline">info@extenseur.co.in</a>
+                                            <a href="#" className="hover:underline">info@visahub.com</a>
                                         </li>
                                     </ul>
                                 </div>
