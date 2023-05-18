@@ -105,12 +105,7 @@ function Navbar() {
                                 >
                                     Contact Us
                                 </Link>
-                                <Link
-                                    to="/user"
-                                    className="block px-3 py-2 rounded-md text-lg font-medium hover:text-golden"
-                                >
-                                    Login/SignUp
-                                </Link>
+                                
                                 
                             </div>
                         </div>
