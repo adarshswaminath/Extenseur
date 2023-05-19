@@ -61,16 +61,20 @@ function Navbar() {
                     </div>
                     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex-shrink-0">
+                            <Link to="/">
                             <img
-                                className="block lg:hidden h-9 w-auto"
+                                className="block lg:hidden h-12 w-auto"
                                 src={image}
                                 alt="Workflow"
                             />
+                            </Link>
+                            <Link to="/">
                             <img
-                                className="hidden lg:block h-9 w-auto"
+                                className="hidden lg:block h-14 w-auto"
                                 src={image}
                                 alt="Workflow"
                             />
+                            </Link>
                         </div>
                         <div className="hidden sm:block sm:ml-6">
     <div className="flex space-x-4">

@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '../images/hero.jpg';
-
+import {Link} from 'react-router-dom'
 
 function Hero() {
   return (
@@ -15,9 +15,11 @@ function Hero() {
               <p className="text-gray-500 text-base sm:text-lg md:text-xl mb-8 md:mb-10 xl:mb-12 max-w-xl">
                 Qualified overseas registered nurse, midwives and other allied health profession who met the eligibility criteria can work in UK
               </p>
-              <a href="#" className="bg-golden text-white rounded-full py-4 px-8 text-base sm:text-lg font-medium shadow-lg hover:bg-yellow-400 transition duration-300">
+              <Link to="/contact">
+              <a className="bg-golden text-white rounded-full py-4 px-8 text-base sm:text-lg font-medium shadow-lg hover:bg-yellow-400 transition duration-300">
                 Schedule a Consultation
               </a>
+              </Link>
             </div>
             <div className="flex justify-center">
               <img

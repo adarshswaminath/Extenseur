@@ -1,6 +1,6 @@
 import React from 'react'
 import image from "../images/library.jpg"
-
+import { Link } from 'react-router-dom'
 function Library() {
   return (
     <div>
@@ -13,9 +13,11 @@ function Library() {
           <p className="max-w-2xl mb-6 text-gray-500 font-light lg:mb-8 md:text-lg lg:text-xl">
             Visa & Immigration service for skilled professionals, students, dependent families, settlement, permanent residency, citizenship, and family tourist visits.
           </p>
-          <a href="#" className="inline-flex items-center justify-center px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden">
+          <Link to="/contact">
+          <a className="inline-flex items-center justify-center px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden">
             Schedule a Consultation
           </a>
+          </Link>
         </div>
         <div className="col-span-12 lg:col-span-5">
             <img src={image} alt="mockup" className="rounded" />

@@ -5,6 +5,7 @@ import three from "../images/service3.jpg"
 import four from "../images/service4.jpg"
 
 import six from "../images/service6.jpg"
+import { Link } from 'react-router-dom'
 
 
 const ServiceCard = ({ title, imageUrl, linkUrl }) => {
@@ -59,9 +60,11 @@ function Service() {
                     />
                 </div>
                 {/* card closed */}
-                <a href="#" className="mt-3 mb-3 inline-flex items-center justify-center w-65 px-5 py-3 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden">
+               <Link to="/contact">
+               <a className="mt-3 mb-3 inline-flex items-center justify-center w-65 px-5 py-3 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden">
                 Schedule a Consultation
               </a>
+               </Link>
             </div>
         </div>
 

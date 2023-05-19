@@ -1,5 +1,6 @@
 import React from 'react'
 import image from "../images/traveller.jpg"
+import {Link} from 'react-router-dom'
 
 function Hero2() {
   return (
@@ -18,12 +19,13 @@ function Hero2() {
               dependent families, settlement, permanent residency, citizenship,
               and family tourist visits.
             </p>
-            <a
-              href="#"
-              className="inline-flex w-90 items-center justify-center px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden"
+           <Link to="/contact">
+           <a
+              className="inline-flex w-80 items-center justify-center px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden"
             >
               Schedule a Consultation
             </a>
+           </Link>
           </div>
         </div>
       </section>
