@@ -21,7 +21,7 @@ function Hero2() {
             </p>
            <Link to="/contact">
            <a
-              className="inline-flex w-80 items-center justify-center px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden"
+              className="inline-flex items-center justify-center px-5 py-3 mb-2 font-medium text-white bg-golden rounded-full text-center text-base hover:bg-golden-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-golden"
             >
               Schedule a Consultation
             </a>

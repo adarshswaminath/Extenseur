@@ -35,7 +35,7 @@ function Service() {
                     Professional registration, assessment service with complete human resources solutions and outsourcing service
                 </p>
                 {/* service cards */}
-                <div className="mt-4 grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                <div className="mt-4 grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <ServiceCard
                         title="UK UNIVERSITY ADMISSION"
                         imageUrl={one}
@@ -58,6 +58,7 @@ function Service() {
                         imageUrl={six}
                         linkUrl="#"
                     />
+                    
                 </div>
                 {/* card closed */}
                <Link to="/contact">
