@@ -8,11 +8,15 @@ import About from './About'
 import Signup from './Signup'
 import Footer from "./Footer"
 import Box from './Box'
-
+import Navbar from '../Navbar'
+import { Top } from '../../App'
 function Home() {
   return (
     <div >
         {/* <Hero/> */}
+        <Top />
+        <hr className="w-full bg-gray-400 h-px" />
+        <Navbar style={{ zIndex: 100 }}/>
         <Hero2/>
         <Library/>
         <Service/>
