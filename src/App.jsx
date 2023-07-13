@@ -66,8 +66,8 @@ function App() {
           <Route exact path="/signup" element={<Signup/>}></Route>
           {/* admin Routes */}
           <Route exact path='content/admin' element={<Admin/>}></Route>
-          <Route path='/pannel' element={<Pannel/>}></Route>
-          <Route path="/upload" element={<Upload/>}></Route>
+          <Route exact path='/pannel' element={<Pannel/>}></Route>
+          <Route exact path="/upload" element={<Upload/>}></Route>
         </Routes>
       </Router>
     </main>
