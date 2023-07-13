@@ -32,7 +32,7 @@ export const Top = () => {
       {/* ----------- */}
       <div className="mt-4 space-x-6 justify-center sm:mt-0 hidden sm:flex ">
       <Link to="/user"><button className='bg-golden px-3 py-2 rounded-lg text-white'>Login</button></Link>
-      <Link to="/signup"><button className='bg-golden px-3 py-2 rounded-lg text-white'>signUp</button></Link>
+      <Link to="/admin"><button className='bg-golden px-3 py-2 rounded-lg text-white'>signUp</button></Link>
 
         
       </div>
@@ -65,7 +65,7 @@ function App() {
           <Route exact path="/user" element={<User/>}></Route> 
           <Route exact path="/signup" element={<Signup/>}></Route>
           {/* admin Routes */}
-          <Route exact path='/content/admin' element={<Admin/>}></Route>
+          <Route exact path='/admin' element={<Admin/>}></Route>
           <Route exact path='/pannel' element={<Pannel/>}></Route>
           <Route exact path="/upload" element={<Upload/>}></Route>
         </Routes>
