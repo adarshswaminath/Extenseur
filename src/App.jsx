@@ -17,6 +17,8 @@ import Contact from './Components/Contact/Contact';
 import User from './Components/User/User';
 import Signup from './Components/User/Signup';
 import Admin from './Components/Admin/Admin';
+import Pannel from './Components/Admin/Pannel';
+import Upload from './Components/Admin/Upload';
 
 export const Top = () => {
   return (
@@ -50,21 +52,11 @@ function App() {
         <Navbar style={{ zIndex: 100 }}/> */}
         {/* contact movable button button  */}
         {/* fixed inset-0 flex justify-end items-end h-screen  */}
-        <div className="fixed overflow-auto scrollable-container justify-end items-end">
-          <Draggable>
-            <div className="fixed p-3">
-              <button className="border-white p-1 bg-green-500 rounded-full">
-                <button className="bg-gray-50 text-green-500 rounded-full p-3">
-                  <a href="https://www.google.com"><BsWhatsapp className='text-xl lg:text-2xl' /></a>
-                </button>
-              </button>
-            </div>
-          </Draggable>
-        </div>
+       
         {/* Routing things */}
         <Routes>
+          {/* user side routes */}
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path='/admin' element={<Admin/>}></Route>
           <Route exact path="/outsourcing" element={<Outsourcing />}></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/visa&immigration" element={<Visa />}></Route>
@@ -72,6 +64,10 @@ function App() {
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/user" element={<User/>}></Route> 
           <Route exact path="/signup" element={<Signup/>}></Route>
+          {/* admin Routes */}
+          <Route exact path='content/admin' element={<Admin/>}></Route>
+          <Route path='/pannel' element={<Pannel/>}></Route>
+          <Route path="/upload" element={<Upload/>}></Route>
         </Routes>
       </Router>
     </main>
