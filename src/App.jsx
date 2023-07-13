@@ -65,7 +65,7 @@ function App() {
           <Route exact path="/user" element={<User/>}></Route> 
           <Route exact path="/signup" element={<Signup/>}></Route>
           {/* admin Routes */}
-          <Route exact path='content/admin' element={<Admin/>}></Route>
+          <Route exact path='/content/admin' element={<Admin/>}></Route>
           <Route exact path='/pannel' element={<Pannel/>}></Route>
           <Route exact path="/upload" element={<Upload/>}></Route>
         </Routes>
