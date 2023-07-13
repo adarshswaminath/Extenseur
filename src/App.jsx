@@ -32,9 +32,8 @@ export const Top = () => {
       {/* ----------- */}
       <div className="mt-4 space-x-6 justify-center sm:mt-0 hidden sm:flex ">
       <Link to="/user"><button className='bg-golden px-3 py-2 rounded-lg text-white'>Login</button></Link>
-      <Link to="/signup"><button className='bg-golden px-3 py-2 rounded-lg text-white'>Signup</button></Link>
-      <Link to="/admin"><button className='bg-golden hidden px-3 py-2 rounded-lg text-white'>Signup</button></Link>
-
+      <Link to="/admin"><button className='bg-golden px-3 py-2 rounded-lg text-white'>Signup</button></Link>
+      
 
         
       </div>
