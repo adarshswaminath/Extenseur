@@ -19,8 +19,10 @@ import Signup from './Components/User/Signup';
 import Admin from './Components/Admin/Admin';
 import Pannel from './Components/Admin/Pannel';
 import Upload from './Components/Admin/Upload';
+import { useState } from 'react';
 
 export const Top = () => {
+
   return (
     <div className="flex justify-between m-2">
       <div className="mt-3 flex gap-2">
@@ -32,7 +34,7 @@ export const Top = () => {
       {/* ----------- */}
       <div className="mt-4 space-x-6 justify-center sm:mt-0 hidden sm:flex ">
       <Link to="/user"><button className='bg-golden px-3 py-2 rounded-lg text-white'>Login</button></Link>
-      <Link to="/admin"><button className='bg-golden px-3 py-2 rounded-lg text-white'>Admin</button></Link>
+      <Link to="/"><button className='bg-golden px-3 py-2 rounded-lg text-white'>Admin</button></Link>
       
 
         
@@ -43,7 +45,8 @@ export const Top = () => {
 
 
 function App() {
-
+  const isAdminAccess = location.pathname === "/access/admin"
+  console.log(isAdminAccess)
   return (
     <main>
       <Router>
@@ -66,7 +69,9 @@ function App() {
           <Route exact path="/user" element={<User/>}></Route> 
           <Route exact path="/signup" element={<Signup/>}></Route>
           {/* admin Routes */}
-          <Route exact path='/admin' element={<Admin/>}></Route>
+          {isAdminAccess && (
+            <Route exact path='/access/admin' element={<Admin/>}></Route>
+          )}
           <Route exact path='/pannel' element={<Pannel/>}></Route>
           <Route exact path="/upload" element={<Upload/>}></Route>
         </Routes>
