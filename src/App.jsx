@@ -20,6 +20,7 @@ import Admin from './Components/Admin/Admin';
 import Pannel from './Components/Admin/Pannel';
 import Upload from './Components/Admin/Upload';
 import { useState } from 'react';
+import Forgot from './Components/Admin/Forgot';
 
 export const Top = () => {
 
@@ -73,6 +74,7 @@ function App() {
             <Route exact path='/access/admin' element={<Admin/>}></Route>
           )}
           <Route exact path='/pannel' element={<Pannel/>}></Route>
+          <Route exact path='/admin-forgot' element={<Forgot/>}></Route>
           <Route exact path="/upload" element={<Upload/>}></Route>
         </Routes>
       </Router>
